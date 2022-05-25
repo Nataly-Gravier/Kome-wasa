@@ -1,0 +1,192 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a :hover {
+    opacity: 1;
+}
+
+/* heard */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    list-style: none
+}
+
+header img {
+    width: 150px;
+    margin-left: 100px;
+
+}
+
+header li a {
+    color: #003E52;
+}
+
+header li {
+    margin: 10px;
+}
+
+/* body */
+
+#conteudo {
+    height: 600px;
+    background-image: url(./Imagens/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#dois #contanier {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#left {
+    width: 40%;
+}
+
+#right {
+    width: 40%;
+}
+
+#dois #contanier #right p h1 {
+    color: #003E52;
+    display: flex;
+    justify-content: right;
+}
+
+#dois #contanier #right p h5 {
+    color: #003E52;
+    display: flex;
+    justify-content: right;
+}
+
+#dois #contanier #right p {
+    color: #003E52;
+    display: flex;
+    justify-content: right;
+}
+
+#tres {
+    height: 400px;
+    background-image: url(./Imagens/images-slider.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#right h1 {
+    color: #003E52;
+    text-align: right;
+}
+
+#right h2 {
+    color: #003E52;
+    text-align: right;
+}
+
+#right p {
+    color: #003E52;
+    text-align: right;
+}
+
+#quatro {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#poke {
+    color: #003E52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+#poke>h1 {
+    color: #003E52;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid #003E52 2px;
+}
+
+#cinco {
+    height: 600px;
+    background-image: url(./Imagens/sushis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#poke >.recipes{
+    padding-bottom: 3%;
+}
+#poke >.recipes > p > .bold {
+    color: #003E52;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#poke >.recipes>.txtrecipes {
+    color: #003E52;
+   padding-top: 3%;
+}
+
+iframe{filter: grayscale(100%);
+
+}
+
+
+
+#contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    background-color: #003E52;
+ 
+}
+
+#contato h1 {
+    padding-top: 20px;
+    font-size: 25px;
+    color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#contato > p {
+    color: white;
+    font-size: 15px;
+   text-align: center;
+}
